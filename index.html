@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAVERI|PLYWOOD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<div class="example">
+    <P>KAVERI PLYWOOD & LAMINATES</P>
+  </div>
+
+  <div id="flip">CONTACT <i style="font-size:24px" class="fa">&#xf2b9;</i></div>
+  <div id="panel">PHONE NO -9897136334 <br> <p><a href="mailto:hitesh2laddo@gmail.com"> CLICK To Send email</a></p> </div>
+  
+<div class="navbar" hidden>
+    <a class="active" href="#">Home</a> 
+    <a href="#">Products</a> 
+    <a href="#">Contact</a> 
+    <a href="#">About</a> 
+  </div>
+  <marquee width="100%" direction="right" height="25px" >
+    Share your details & our team will get in touch with you.
+    </marquee>
+  <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded":true }'>
+    <div class="carousel-cell">
+      <img class="w3-image" src="1.jpg">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="2.jpg">
+    </div>
+    <div class="carousel-cell">
+      <img class="w3-image" src="3.jpg">
+    </div>
+    <div class="carousel-cell">
+        <img class="w3-image" src="4.jpg">
+      </div>
+  </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+    $(document).ready(function(){
+      $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+      });
+    });
+    </script>
+</body>
+</html>
